@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Background-Color: <span id="color">#000000</span></h1>
-    <input type="text" value="" placeholder="#000000">
+    <!-- h1 representando o titúlo da página seguido por um span representando a cor de fundo atual da página. -->
+    <h1>Background-Color: <span id="color">black</span></h1>
+
+    <!-- input de entrada para o usuario escolher qual cor que e aplicala no background -->
+    <input id="input-color" type="text" value="" placeholder="black">
+
+    <!-- botões de alteração de cor, o primeiro segue os dado do input o segundo gera uma cor aleatoria para o background -->
     <button id="change-color">Change Color</button>
     <button id="random-color">Random Color</button>
+
+    <!-- script da página -->
     <script src="./script.js"></script>
 </body>
 </html>
