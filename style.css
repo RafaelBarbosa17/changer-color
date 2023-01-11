@@ -67,7 +67,7 @@ button:active {
     justify-content: center;
 }
 
-h2 {
+h2.type-titlte {
     color: black;
     text-align: center;
     margin: 5px auto;
