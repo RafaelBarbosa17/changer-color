@@ -5,18 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Color</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- h1 representando o titúlo da página seguido por um span representando a cor de fundo atual da página. -->
     <h1>Background-Color: <span id="color">black</span></h1>
-
+    
     <!-- input de entrada para o usuario escolher qual cor que e aplicala no background -->
-    <input id="input-color" type="text" value="" placeholder="black">
-
+    <input id="input-color" class="input-color" type="text" value="" placeholder="black">
+    
     <!-- botões de alteração de cor, o primeiro segue os dado do input o segundo gera uma cor aleatoria para o background -->
-    <button id="change-color">Change Color</button>
-    <button id="random-color">Random Color</button>
+    <button class="main" id="change-color">Change Color</button>
+    <button class="main" id="random-color">Random Color</button>
+    
+        <!-- seleção para brincar com as cores manualmente -->
+        <div class="change-color-manual">
+            <h2>RGB</h2>
+            <div class="change-values">
+                <div class="num-values-box">
+                    <button class="increase-value">^</button>
+                        <input class="num-values" type="text" value="0">
+                    <button class="decrease-value">v</button>
+                </div>
+                <div class="num-values-box">
+                    <button class="increase-value">^</button>
+                        <input class="num-values" type="text" value="0">
+                    <button class="decrease-value">v</button>
+                </div>
+                <div class="num-values-box">
+                    <button class="increase-value">^</button>
+                        <input class="num-values" type="text" value="0">
+                    <button class="decrease-value">v</button>
+                </div>
+            </div>
+        </div>
 
     <!-- script da página -->
     <script src="./script.js"></script>
